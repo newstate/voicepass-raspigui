@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Program
+Comment=Start Program on Raspberry Pi
+Icon=/home/pi/voicepass-raspigui/your_icon.png
+Exec=sh /home/pi/voicepass-raspigui/run_program.sh
+Terminal=true
+Type=Application

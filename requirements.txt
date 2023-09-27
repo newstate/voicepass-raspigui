@@ -1,0 +1,21 @@
+# basic requirements
+PyAudio
+load_dotenv
+GPIO
+pyqt5
+
+# google requires
+SpeechRecognition==3.8.1
+google-cloud-texttospeech
+google-cloud-speech
+google-api-python-client
+
+# vosk requires
+vosk
+vosk-api
+sounddevice
+
+"""
+alternatively if you plan on using only vosk or only google, 
+leave either one out, including the speech recognition library that works with goggle.
+"""
