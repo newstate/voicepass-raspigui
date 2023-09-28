@@ -1,4 +1,4 @@
-# gcloud_stt
+# voicepass-raspigui
 
 This is code for creating voice-controlled password programs that can unlock physical devices or activate mechanisms using a raspberry pi microcontroller. The user needs to answer three questions before being asked to confirm that they would like to unlock or activate a mechanism. At that point the IO pin of the raspberry pi is switched whereby an attached device (using a relay) can be activated. It contains also a reset button that the user can press to reset the IO pin. A simple GUI is created with PyQt which can be controlled via touchscreen (scaled for this purpose) and virtual keyboard or via mouse and physical keyboard. The GUI displays the questions and feedback from the program when the user correctly or incorrectly answers the questions. The program can either run offline using the vosk library and Kaldi recognizer models or using google cloud services. The generated voice, either offline or online, is generated using google cloud text to speech.
 
